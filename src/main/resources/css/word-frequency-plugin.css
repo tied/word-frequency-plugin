@@ -1,0 +1,26 @@
+#content {
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    color: fuchsia;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #0064fd;
+}
+
+th {
+    width: 20%;
+    border: 1px solid #376080;
+}
+
+td {
+    border: 1px solid grey;
+}

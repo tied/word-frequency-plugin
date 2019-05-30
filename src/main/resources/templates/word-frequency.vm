@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta name="decorator" content="atl.general"/>
+    <title>Word Frequency</title>
+</head>
+<body>
+<h1>Word Frequency Statistics</h1>
+<table>
+    <tr>
+        <th>Word</th>
+        <th>Frequency</th>
+    </tr>
+    #set ($data=$frequency.keySet())
+    #foreach ($key in $data)
+    <tr>
+        <td> $key </td>
+        <td> $frequency.get($key) </td>
+    #end
+</table>
+</body>
+</html>
